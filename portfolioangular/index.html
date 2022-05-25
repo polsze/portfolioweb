@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Portfolioangular</title>
+  <base href="https://polsze.github.io/portfolioweb">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>*{margin:0;padding:0;box-sizing:border-box;font-size:16px}</style><link rel="stylesheet" type="text/css" href="../assets/css/style.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="../assets/css/style.css"></noscript>
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <style type="text/css">@font-face{font-family:'Goldman';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/goldman/v15/pe0uMIWbN4JFplR2HDpyB_24C95Scg.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}@font-face{font-family:'Goldman';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/goldman/v15/pe0uMIWbN4JFplR2HDtyB_24C95Scg.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Goldman';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/goldman/v15/pe0uMIWbN4JFplR2HDVyB_24C94.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <style type="text/css">@font-face{font-family:'Press Start 2P';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/pressstart2p/v14/e3t4euO8T-267oIAQAu6jDQyK3nYivNm4I81PZQ.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}@font-face{font-family:'Press Start 2P';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/pressstart2p/v14/e3t4euO8T-267oIAQAu6jDQyK3nRivNm4I81PZQ.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}@font-face{font-family:'Press Start 2P';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/pressstart2p/v14/e3t4euO8T-267oIAQAu6jDQyK3nWivNm4I81PZQ.woff2) format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Press Start 2P';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/pressstart2p/v14/e3t4euO8T-267oIAQAu6jDQyK3nbivNm4I81PZQ.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Press Start 2P';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/pressstart2p/v14/e3t4euO8T-267oIAQAu6jDQyK3nVivNm4I81.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <style type="text/css">@font-face{font-family:'Khand';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/khand/v14/TwMA-IINQlQQ0bpTUnQdTwqPxuY.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}@font-face{font-family:'Khand';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/khand/v14/TwMA-IINQlQQ0bpcUnQdTwqPxuY.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}@font-face{font-family:'Khand';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/khand/v14/TwMA-IINQlQQ0bpSUnQdTwqP.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>*{margin:0;padding:0;box-sizing:border-box;font-size:16px}</style><link rel="stylesheet" href="styles.1d738e4da8f056b1.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.1d738e4da8f056b1.css"></noscript></head>
+<body>
+  <app-root></app-root>
+  <script>
+    function accion() {
+      console.log('funciona');
+      let ancla = document.getElementsByClassName('nav-enlace');
+      for(var i = 0; i < ancla.length ; i++) {
+        ancla[i].classList.toggle('desaparecer');
+      }
+    }
+
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="runtime.ff71709e4f4ab3f8.js" type="module"></script><script src="polyfills.d6b415296281fe7d.js" type="module"></script><script src="main.43f39952e0fd46d6.js" type="module"></script>
+
+</body></html>

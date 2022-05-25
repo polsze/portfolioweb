@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+
+/* HEADERRRRRRRRR */
+
+header {
+	height: 82vh;
+	background-image:linear-gradient(to top, rgba(171, 222, 243, 0.5) 0%, rgba(152, 170, 177, 0.5) 100%), url(../img/asd.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.login {
+	text-align: right;
+}
+.login button {
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+.titulo1 {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+.titulo1 h1 {
+	font-family: 'Goldman', cursive;
+	font-size: 3em;
+	color: #000;
+}
+.titulo1 p {
+	font-size: 2em;
+	color: #000;
+}
+
+
+/* CONTENEDOR 1 */
+
+.acercade{
+	border: 1px solid black;
+	height: 40vh;
+	margin: 30px;
+	border-radius: 15px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgb(25, 135, 84);
+}
+
+#acordeon {
+	font-size: 0.8em;
+	overflow: 	hidden	;
+}
+.contenedor1 {
+	margin: 10px;
+}
+
+.titulito{
+	font-size: 1.8em;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.line {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	height: 1px;
+	background: #000;
+	margin-top: 10px;
+}
+
+#letras {
+	font-family: 'Khand', sans-serif;
+}
+
+/* CONTENEDOR 2 */
+
+.contenedor2 {
+	margin: 10px;
+}
+
+.cont-cards {
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.line {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 2px;
+	background: #000;
+	margin-bottom: 60px;
+}
+
+/* CONTENEDOR 3 */
+.contenedor3 {
+	margin: 10px;
+}
+
+/* CONTENEDOR 4 */
+
+.contenedor4 {
+	margin: 10px;
+}
+
+.contenedor4 h3 {
+	margin: 5px;
+}
