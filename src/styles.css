@@ -1,1 +1,303 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+
+/* HEADERRRRRRRRR */
+
+header {
+	height: 82vh;
+	background-image:linear-gradient(to top, rgba(171, 222, 243, 0.5) 0%, rgba(152, 170, 177, 0.5) 100%), url(./assets/img/asd.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.nav1 {
+	width: 100%;
+	background: linear-gradient(to right, rgb(13, 110, 253), rgb(150,185,218));
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.nav1 a {
+	font-family: 'Goldman', cursive;
+	font-size: 1.4em;
+	text-decoration: none;
+	color: #000;
+
+}
+
+#login {
+	font-family: 'Goldman', cursive;
+	margin-top: 5px;
+}
+
+.login button {
+	margin-right: 10px;
+}
+
+.titulo1 {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.titulo1 h1 {
+	 font-family: 'Goldman', cursive;
+	font-size: 3em;
+	color: #000;
+	
+}
+.titulo1 p {
+	font-family: 'Goldman', cursive;
+	font-size: 2em;
+	color: #000;
+}
+
+.boton-nav {
+	width: 100%;
+}
+/* CONTENEDOR 1 */
+
+.acercade{
+	border: 1px solid black;
+	height: 40vh;
+	margin: 30px;
+	border-radius: 15px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgb(13, 110, 253);
+	display: flex;
+	align-items: center;
+}
+
+#acordeon {
+	font-size: 0.8em;
+	overflow: 	hidden	;
+	margin-top: 17px;
+}
+.contenedor1 {
+	margin: 10px;
+}
+
+.titulito{
+	font-size: 1.3em;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.line {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	height: 1px;
+	background: #000;
+	margin-top: 10px;
+}
+#divexpandir {
+	background: rgb(8, 234, 20);
+}
+#letras {
+	font-family: 'Khand', sans-serif;
+}
+
+#strong {
+	background: rgb(30, 236,236);
+	font-family: 'Khand', sans-serif;
+}
+
+#botonexpandir {
+	background: rgb(13, 110, 253);
+	font-family: 'Goldman', cursive;
+}
+
+
+/* CONTENEDOR 2 */
+
+.contenedor2 {
+	margin: 10px;
+}
+
+.cont-cards {
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.line {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 2px;
+	background: #000;
+	margin-bottom: 60px;
+}
+
+/* CONTENEDOR 3 */
+.contenedor3 {
+	margin: 10px;
+}
+
+/* CONTENEDOR 4 */
+
+.contenedor4 {
+	margin: 10px;
+}
+
+.contenedor4 h3 {
+	margin: 5px;
+}
+
+/* CONTENEDOR 5 */
+.skills {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	font-family: 'Khand', sans-serif;
+
+}
+.cont-skills {
+	width: 30%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.cont-skills img {
+	width: 80%;
+	display: block;
+	margin:0 auto;
+}
+.n-skills {
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 1.5em;
+}
+
+/* FOOTER */
+
+footer {
+	background:rgb(20,29,72);
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	text-align: center;
+}
+
+footer p {
+	margin: auto;
+	color: #fff;
+	
+}
+footer p a {
+	text-decoration: none;
+	color: rgb(8, 234, 20);
+}
+footer p a:hover {
+	color: rgb(208, 217, 15);
+}
+
+footer p i {
+	letter-spacing: 0.4em;
+	font-size: 2.3em;
+	margin-top: 5px;
+}
+
+
+
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 200px) {
+	.lista li {
+		font-size: 0.8em;
+	}
+}
+@media screen and (max-width: 280px) {
+	footer p {
+		
+	}
+}
+@media screen and (max-width: 460px) {
+	.lista li {
+		text-align: center;
+	}
+	#botonexpandir {
+		display: none;
+	}
+	.lista  {
+		margin-top: 1.2em;
+	}
+	.lista li {
+
+	}
+	.acercade {
+		display: block;
+	}
+
+	footer p  {
+		
+	}
+	#footer2 {
+		margin: auto;
+	}
+	.n-skills {
+		font-size: 0.8em;
+
+	}
+}
+
+@media screen and (min-width: 460px) {
+	.lista {
+		display: none;
+	}
+}
+
+@media (max-width: 600px) {
+	.nav1 {
+		flex-direction: column;
+	}
+	.boton-nav {
+		display: inline-block;
+	}
+	.nav-enlace {
+
+	}
+	.desaparecer {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.boton-nav {
+		display: none;
+	}
+	
+}
+
+@media screen and (max-width: 860px) {
+	.lista {
+		
+	}
+  .acercade {
+	width: 100%;
+	}
+	.titulito {
+		font-size: 1em;
+	}
+	#botonexpandir {
+	}
+}
+
