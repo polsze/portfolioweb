@@ -9,6 +9,8 @@ import { Contenedor3Component } from './componentes/contenedor3/contenedor3.comp
 import { Contenedor4Component } from './componentes/contenedor4/contenedor4.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { Contenedor5Component } from './componentes/contenedor5/contenedor5.component';
+import { PortfolioService } from 'src/app/servicios/portfolio.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { Contenedor5Component } from './componentes/contenedor5/contenedor5.comp
     Contenedor5Component
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
