@@ -93,10 +93,11 @@ header {
 /* CONTENEDOR 5 */
 .skills {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
 	font-family: 'Khand', sans-serif;
+
 }
 
 .cont-skills {

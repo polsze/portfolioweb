@@ -1,73 +1,76 @@
 {
 	"name": "Pablo Barrios",
 	"bgimg": "assets/img/polu.png",
-	"sobremi": "Estudiante de Desarrollo Web Full Stack en Argentina Programa.",
+	"aboutme": "Estudiante de Desarrollo Web Full Stack en Argentina Programa.",
 
-	"experiencia": [
+	"experience": [
 		{
 			"imgexp":"assets/img/doble.png",
-			"empresa":"Doble 5inco",
-			"funcion":"Periodista",
-			"tareas":"Locutor, coberturas de campo, redacción.",
-			"inicio":"2014",
-			"final":"2017"
+			"company":"Doble 5inco",
+			"position":"Periodista",
+			"tasks":"Locutor, coberturas de campo, redacción.",
+			"start":"2014",
+			"end":"2017"
 		},
 		{
 			"imgexp":"assets/img/nestle.png",
-			"empresa":"Nestlé S.A",
-			"funcion":"Vendedor viajante",
-			"tareas":"Atención a clientes en zonas preasignadas.",
-			"inicio":"2017",
-			"final":"2019"
+			"company":"Nestlé S.A",
+			"position":"Vendedor viajante",
+			"tasks":"Atención a clientes en zonas preasignadas.",
+			"start":"2017",
+			"end":"2019"
 		},
 		{
 			"imgexp":"assets/img/mundo.png",
-			"empresa":"El Mundo de las Joyas",
-			"funcion":"Vendedor de salón",
-			"tareas":"Encargado de la atención al cliente y ventas.",
-			"inicio":"2019",
-			"final":"2021"
+			"company":"El Mundo de las Joyas",
+			"position":"Vendedor de salón",
+			"tasks":"Encargado de la atención al cliente y ventas.",
+			"start":"2019",
+			"end":"2021"
 		}
 	],
 
-	"educacion": [
+	"education": [
 		{
 			"imgeduc":"assets/img/saavedra.png",
-			"instituto":"Arias de Saavedra",
-			"carrera":"Periodismo",
-			"inicio":"2012",
-			"final":"2015"
+			"institute":"Arias de Saavedra",
+			"title":"Periodismo",
+			"start":"2012",
+			"end":"2015"
 		},
 		{
 			"imgeduc":"assets/img/argprog.png",
-			"instituto":"Argentina Programa",
-			"carrera":"Desarrollo Web Full Stack",
-			"inicio":"2021",
-			"final":"Actualidad"
+			"institute":"Argentina Programa",
+			"title":"Desarrollo Web Full Stack",
+			"start":"2021",
+			"end":"Actualidad"
 		}
 	],
-	"habilidades": [
+	"skills": [
 		{
-			"tipo":"Resolución",
-			"nivel": 40
+			"type":"Resolución",
+			"lvl": 40,
+			"imgskill":"assets/img/problema.svg"
 		},
 		{
-			"tipo":"Investigación",
-			"nivel": 80
+			"type":"Investigación",
+			"lvl": 90,
+			"imgskill":"assets/img/investigar.svg"
 		},
 		{
-			"tipo":"Codificación",
-			"nivel": 50
+			"type":"Codificación",
+			"lvl": 60,
+			"imgskill":"assets/img/developer.svg"
 		}
 	],
 	"proyects":[
 		{
-			"empresa":"Haush Guitars Co.",
-			"descripcion":"Construyendo la Web de esta empresa dedicada a la construcción de guitarras con maderas exóticas."
+			"company":"Haush Guitars Co.",
+			"description":"Construyendo la Web de esta empresa dedicada a la construcción de guitarras con maderas exóticas."
 		}
 		],
 
-	"descripcionfooter":"Portfolio personal de Pablo Barrios, estudiante de la capacitación de Argentina Programa 2022.",
+	"descriptionfooter":"Portfolio personal de Pablo Barrios, estudiante de la capacitación de Argentina Programa 2022.",
 	"facebook":"https://www.facebook.com/pablo.barrios.73744",
 	"stackoverflow":"https://es.stackoverflow.com/users/287490/pablo-barrios",
 	"linkedin":"https://www.linkedin.com/in/pablo-barrios-2ba888231/"

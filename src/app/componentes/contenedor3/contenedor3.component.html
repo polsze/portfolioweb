@@ -1,26 +1,21 @@
   <section class="educacion" id="educacion">
     <div class="contenedor3">
       <h3 class="titulito" style="margin-bottom: 50px;">Educación</h3>
-      <div class="cont-cards">
-        <div class="card" style="width: 18rem;">
-          <img src="assets/img/saavedra.png" class="card-img-top" alt="Instituto Saavedra">
-        <div class="card-body" id="letras">
-            <h5 class="card-title">Arias de Saavedra</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Periodismo</h6>
-            <p class="card-text">2012 - 2015</p>
-            <a href="https://ariasdesaavedra.edu.ar/" class="btn btn-primary" target="_BLANK">Ir a</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="assets/img/argprog.png" class="card-img-top" alt="Argentina Programa">
-          <div class="card-body" id="letras">
-            <h5 class="card-title">Argentina Programa</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Desarrollo Web Full Stack</h6>
-            <p class="card-text">2021 - Actualidad</p>
-            <a href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa" class="btn btn-primary" target="_BLANK">Ir a </a>
-          </div>
-        </div>
-      </div>  
-    </div>
+        <div class="cont-cards">
+          <ul>
+            <li *ngFor="let educacion of educationList" style="list-style: none; display: inline-block; margin: 5px;">
+              <div class="card" style="width: 18rem;">
+                <img [src]="educacion.imgeduc" class="card-img-top" alt="Instituto Saavedra">
+                  <div class="card-body" id="letras">
+                    <h5 class="card-title">{{educacion.institute}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{educacion.title}}</h6>
+                    <p class="card-text">{{educacion.start}} - {{educacion.end}}</p>
+                    <a href="https://ariasdesaavedra.edu.ar/" class="btn btn-primary" target="_BLANK">Ir a</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>  
+      </div>
   </section>
   <div class="line"></div>
