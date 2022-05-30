@@ -49,19 +49,31 @@
 	"skills": [
 		{
 			"type":"Resolución",
-			"lvl": 40,
-			"imgskill":"assets/img/problema.svg"
+			"lvl": 50
 		},
+
 		{
 			"type":"Investigación",
-			"lvl": 90,
-			"imgskill":"assets/img/investigar.svg"
+			"lvl": 75
 		},
+
 		{
 			"type":"Codificación",
-			"lvl": 60,
-			"imgskill":"assets/img/developer.svg"
+			"lvl": 50
+		},
+		{
+			"type":"HTML",
+			"lvl": 75
+		},
+		{
+			"type":"CSS",
+			"lvl": 50
+		},
+		{
+			"type":"JS",
+			"lvl": 25
 		}
+
 	],
 	"proyects":[
 		{

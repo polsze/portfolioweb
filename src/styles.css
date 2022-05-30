@@ -93,24 +93,19 @@ header {
 /* CONTENEDOR 5 */
 .skills {
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
 	flex-wrap: wrap;
+	justify-content: space-around;
 	font-family: 'Khand', sans-serif;
-
+	flex-direction: column;
+	margin-right: 2em;
 }
 
 .cont-skills {
-	width: 30%;
-	text-align: center;
+	
 	margin-bottom: 20px;
 }
 
-.cont-skills img {
-	width: 80%;
-	display: block;
-	margin:0 auto;
-}
+
 
 .n-skills {
 	display: inline-block;
