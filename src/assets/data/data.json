@@ -75,14 +75,13 @@
 		}
 
 	],
-	"proyects":[
-		{
-			"company":"Haush Guitars Co.",
-			"description":"Construyendo la Web de esta empresa dedicada a la construcción de guitarras con maderas exóticas."
-		}
-		],
+	
+		
+	"projectcompany":"Haush Guitars Co.",
+	"projectdescription":"Construyendo la Web de esta empresa dedicada a la construcción de guitarras con maderas exóticas.",
+		
 
-	"descriptionfooter":"Portfolio personal de Pablo Barrios, estudiante de la capacitación de Argentina Programa 2022.",
+	"footerdescription":"Portfolio personal de Pablo Barrios, estudiante de la capacitación de Argentina Programa 2022.",
 	"facebook":"https://www.facebook.com/pablo.barrios.73744",
 	"stackoverflow":"https://es.stackoverflow.com/users/287490/pablo-barrios",
 	"linkedin":"https://www.linkedin.com/in/pablo-barrios-2ba888231/"
