@@ -1,12 +1,16 @@
  <!-- HEADERRRRRRRRRRRRRRRRRRRRRR -->
-<header>
-    <div class="titulo1">
-      <img [src]="miPortfolio.bgimg" style="border-radius: 50%;" alt="PoL">
-      <h1>{{miPortfolio.name}}</h1>
-      <div id="login">
-      <button type="button" class="btn-lg btn-primary bg-primary">Login</button>
-      </div>
-    </div> 
+<header >
+  <img src="../assets/img/argprograma.png" class="logo" alt="logoargprog">
+
+
+ <div class="social">
+    <button type="button" class="btn btn-success">Login</button>
+   
+    <a [href]="miPortfolio.stackoverflow" target="_BLANK"><i class='bx bxl-stack-overflow' style="color: white; font-size: 2.3em;"></i></a>
+    <a [href]="miPortfolio.linkedin" target="_BLANK"><i class='bx bxl-linkedin' style="color: white; font-size: 2.3em;"></i></a>
+
+ </div>
+  
 </header>
 
 

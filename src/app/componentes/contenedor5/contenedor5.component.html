@@ -4,7 +4,7 @@
 					<ul>
           <li *ngFor="let habilidades of skillsList" style="list-style: none;margin: 5px; ">
 				<div class="cont-skills">
-					<h3 class="n-skills">{{habilidades.type}}</h3>
+					<h3 class="n-skills">{{habilidades.type}}<i class="fa-solid fa-pencil" style="margin: 10px;"></i><i class="fa-solid fa-trash-can" style="margin: 5px;"></i></h3>
 					<div class="progress">
  					<div class="progress-bar w-{{habilidades.lvl}}" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
 					</div>

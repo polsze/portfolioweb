@@ -10,37 +10,20 @@
 
 header {
 	height: 82vh;
-	background-image:linear-gradient(to top, rgba(171, 222, 243, 0.5) 0%, rgba(152, 170, 177, 0.5) 100%), url(../img/asd.jpg);
+	background-image: url(../img/asd.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 }
-.login {
-	text-align: right;
-}
-.login button {
-	margin-top: 5px;
-	margin-right: 10px;
+
+.logo {
+	margin: 5px;
+	border-radius: 10%;
+	height: 10vh;
+	border: 1px solid red;
 }
 
-.titulo1 {
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
-}
-.titulo1 h1 {
-	font-family: 'Goldman', cursive;
-	font-size: 3em;
-	color: #000;
-}
-.titulo1 p {
-	font-size: 2em;
-	color: #000;
-}
 
 
 /* CONTENEDOR 1 */
@@ -56,9 +39,11 @@ header {
 	background: rgb(25, 135, 84);
 }
 
+
+
 #acordeon {
 	font-size: 0.8em;
-	overflow: 	hidden	;
+	overflow: 	hidden;
 }
 .contenedor1 {
 	margin: 10px;
@@ -88,7 +73,7 @@ header {
 /* CONTENEDOR 2 */
 
 .contenedor2 {
-	margin: 10px;
+	margin: auto;
 }
 
 .cont-cards {
